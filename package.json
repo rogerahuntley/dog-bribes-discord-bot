@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "@prisma/client": "^4.11.0",
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "sqlite3": "^5.1.4"
+  },
+  "name": "dogbribes-discord-bot",
+  "description": "shared with my discord server, adds some commands to interact with dog bribes",
+  "version": "0.0.1",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "register": "node devops/registerCommands.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rogerahuntley/ai-discord-bot.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rogerahuntley/ai-discord-bot/issues"
+  },
+  "homepage": "https://github.com/rogerahuntley/ai-discord-bot#readme",
+  "devDependencies": {
+    "prisma": "^4.11.0"
+  }
+}
